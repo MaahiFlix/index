@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    background-image: url("");
+
+}
+
+header {
+    display: flexbox;
+    text-align: right;
+    align-items: center;
+    padding: 50px 30px;
+
+
+
+}
+
+
+
+header a {
+    color: aliceblue;
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 150px 20px;
+    background-image: url(background.jpeg);
+    padding: 150px;
+    margin: 20px;
+    border-radius: 10px;
+   
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)),
+        url("background.jpeg");
+
+
+}
+
+
+.hero h2 {
+    font-size: 50px;
+}
+
+.hero a {
+    color: aliceblue;
+    background-color: red;
+    padding: 10px 15px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.movie-row {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+
+.movies {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.movies h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 50px;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+
+.poster {
+    text-align: center;
+
+}
+
+.poster img {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+
+
+.button {
+    display: block;
+    margin-top: 10px;
+    background: red;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+
+
+
+}
+
+
+footer {
+    text-align: center;
+    padding-top: 100px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 10px;
+
+
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: black;
+    padding: 20px 40px;
+    z-index: 1000;
+}
+
+.logo {
+    color: red;
+    margin: 0;
+}
+
+.search-bar {
+    width: 250px;
+    padding: 10px;
+    margin-right: 80px;
+
+    background-color: #222;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
